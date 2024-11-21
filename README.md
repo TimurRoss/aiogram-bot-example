@@ -40,18 +40,18 @@ python main.py # Bot Launches
 ``` graph
 - main.py - the main executable file
 - requirements.txt - a file with a list of required libraries
-- /core - the folder where the main code of the bot
-is located - bot.py - a bot class is being created in it
-- config.py - pulls up the parameters from the `config.ini` file
+- /core - the folder where the main code of the bot is located 
+    - bot.py - a bot class is being created in it
+    - config.py - pulls up the parameters from the `config.ini` file
     - keyboards.py - it contains all inline and regular buttons
-    - logger_setup.py - setting up log
-processing - states.py - lists of states for finite state machines
-- /db - folder with functions for working with different databases
-- /filters - folder with its own filters 
+    - logger_setup.py - setting up log processing 
+    - states.py - lists of states for finite state machines
+    - /db - folder with functions for working with different databases
+    - /filters - folder with its own filters 
     - /middleware - folder with your middleware
     - /scheduler - folder with handlers for "timer actions"
-- /texts - folder with texts for messages
-- /tools - folder with additional tools
+    - /texts - folder with texts for messages
+    - /tools - folder with additional tools
 ```
 
 That's all for now)
